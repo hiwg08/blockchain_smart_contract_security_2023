@@ -74,19 +74,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "wetwer",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -102,7 +89,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Ex1.sol": "Ex1"
+			"contracts/Ex1.sol": "Ballot"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
