@@ -4,7 +4,85 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "a",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "qerqer",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "qq",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "number",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes32",
+						"name": "a",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "solve1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "st1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wetwer",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +111,11 @@
 	},
 	"sources": {
 		"contracts/Ex1.sol": {
-			"keccak256": "0xcaefa8b9a07b6b5f9c21bbad40ae26f532d0472eecd9953316c2f1950a83b2cc",
+			"keccak256": "0x180f8cf033ec7f2f7075c28f896d30a7cc337dcef3a7bfbc6977388fd2c2cbcb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://d7bf36e531acaf129e00501806bdcd37feb6d9222adb48dcd1ef2108bc32be6c",
-				"dweb:/ipfs/QmUvtc3kvV6B25oNH4FeSjhs8mQrvrdKBJ7Tf8d1iYKZkr"
+				"bzz-raw://f70e21e701c899006e7c21aa7d44030b5c8e51b7eacba045c42841cbd372da29",
+				"dweb:/ipfs/QmfHWsKf9LfLt3MC33YghpZLijTo5KD85xgDTvvAZqipn9"
 			]
 		}
 	},

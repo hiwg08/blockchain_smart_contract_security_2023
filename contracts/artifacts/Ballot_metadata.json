@@ -4,78 +4,7 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [
-			{
-				"inputs": [],
-				"name": "a",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "qq",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "number",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bytes32",
-						"name": "a",
-						"type": "bytes32"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "solve1",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "st1",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			}
-		],
+		"abi": [],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -104,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/Ex1.sol": {
-			"keccak256": "0xef038ea401f846de5982e081de5b564d958d96b3cd458c864fac15226d0230a7",
+			"keccak256": "0xdffe36e39c32434884d925b90404236a8e13fdb4259235d7b196725c8e96efe8",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ffbda12619baaeb7629f680f53528e7f2e2f46ae73bced192664ef380c0d83dd",
-				"dweb:/ipfs/QmNx7DsxDrpLVhnxhe2VsXAtXE7f79htE59aeyDCcJGR9u"
+				"bzz-raw://eb89350b5248f25c45d0e323cef404eab70ad2ad97ec751c53da2d248efe6541",
+				"dweb:/ipfs/QmQDBv3yiRacQShctdPinJWajagoWLm48GATMRB5c1z5yt"
 			]
 		}
 	},

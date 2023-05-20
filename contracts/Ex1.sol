@@ -2,44 +2,36 @@
 
 pragma solidity >=0.8.2 <0.9.0;
 
-contract Ballot
-{
-    struct students
-    {
-        uint number;
-        bytes32 a;
+contract add{
+    event JustFallback(string _str);
+    event JustReceive(string _str);
+    function addNumber(uint256 _num1, uint256 _num2) public pure returns(uint256){
+        return _num1 + _num2;
     }
-
-    students public qq;
-
-    uint public a = 1;
-
-    string public st1 = "hello world!";
-
-    mapping(uint => uint) public b;
-
-    mapping(address => uint) internal ms;
-
-    bytes q;
-
-    function solve1() public
+    fallback() external {
+     emit JustFallback("JustFallback is called");
+    }
+    receive() external payable 
     {
-        ms[msg.sender] = 3;
-
-        b[1] = 1;
-
-        b[2] = 333;
-
-        require(ms[msg.sender] >= 2, "wow, this is awesome!");
+        emit JustReceive("wow~ success!");
     }
 }
 
-contract Ex1 is Ballot
-{
-    string internal e = st1;
+contract caller{
+    event calledFunction(bool _success, bytes _output);
+   
+    //1. 송금하기 
+    function transferEther(address payable _to) public payable{
+        (bool success,) = _to.call{value:msg.value}("");
+        require(success,"failed to transfer ether");
+    }
     
-
-
-    uint public wetwer = ms[msg.sender];
+    //2. 외부 스마트 컨트랙 함수 부르기 
+    function callMethod(address _contractAddr,uint256 _num1, uint256 _num2) public{
+        (bool success, bytes memory outputFromCalledFunction) = _contractAddr.call(
+              abi.encodeWithSignature("addNumber2(uint256,uint256)",_num1,_num2)
+              );
+        require(success,"failed to transfer ether");
+        emit calledFunction(success,outputFromCalledFunction);
+    }
 }
-

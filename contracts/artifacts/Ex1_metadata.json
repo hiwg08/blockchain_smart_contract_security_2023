@@ -19,25 +19,6 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "b",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "qq",
 				"outputs": [
@@ -117,11 +98,11 @@
 	},
 	"sources": {
 		"contracts/Ex1.sol": {
-			"keccak256": "0xef038ea401f846de5982e081de5b564d958d96b3cd458c864fac15226d0230a7",
+			"keccak256": "0x180f8cf033ec7f2f7075c28f896d30a7cc337dcef3a7bfbc6977388fd2c2cbcb",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://ffbda12619baaeb7629f680f53528e7f2e2f46ae73bced192664ef380c0d83dd",
-				"dweb:/ipfs/QmNx7DsxDrpLVhnxhe2VsXAtXE7f79htE59aeyDCcJGR9u"
+				"bzz-raw://f70e21e701c899006e7c21aa7d44030b5c8e51b7eacba045c42841cbd372da29",
+				"dweb:/ipfs/QmfHWsKf9LfLt3MC33YghpZLijTo5KD85xgDTvvAZqipn9"
 			]
 		}
 	},
